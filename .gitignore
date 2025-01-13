@@ -169,3 +169,41 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+#C++
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+*.core
+*.stackdump
+
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Логи
+*.log
+
+*~
+*.bak
+*.orig
+
+.idea/
+.vscode/
+*.code-workspace
+
+.DS_Store
+Thumbs.db
