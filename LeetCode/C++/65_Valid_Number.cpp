@@ -1,3 +1,8 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
 class Solution {
 public:
     bool isNumber(string s) {
@@ -30,3 +35,16 @@ public:
         return seenDigit;
     }
 };
+
+int main() {
+    Solution solution;
+    string s;
+    
+    cout << "Enter a string: ";
+    cin >> s;
+    
+    bool result = solution.isNumber(s);
+    cout << "Is valid number? " << (result ? "Yes" : "No") << endl;
+    
+    return 0;
+}
